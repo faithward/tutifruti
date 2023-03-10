@@ -5,12 +5,12 @@ export const Navbar = () => {
   //const navigate = useNavigate();
 
   return (
-    <header class="header sticky bg-slate-300 px-4">
-      <nav class="justify-items-start">
+    <header>
+      <nav>
         <div>
           <h1>Tuti Fruti :)</h1>
         </div>
-        <ul class="flex justify-items-start">
+        <ul>
           <li>
             <a href="/">Home</a>
           </li>
