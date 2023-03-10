@@ -5,11 +5,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <header>
+      <header class="flex justify-center text-white px-5">
         <h1>Hello Tooti Froots</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
       </header>
     </div>
   );
