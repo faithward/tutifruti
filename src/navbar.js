@@ -5,12 +5,12 @@ export const Navbar = () => {
   //const navigate = useNavigate();
 
   return (
-    <div class="flex mx-auto justify-center bg-slate-300">
-      <nav class="justify-start">
+    <header class="header sticky bg-slate-300 px-4">
+      <nav class="justify-items-start">
         <div>
           <h1>Tuti Fruti :)</h1>
         </div>
-        <ul>
+        <ul class="flex justify-items-start">
           <li>
             <a href="/">Home</a>
           </li>
@@ -22,7 +22,7 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 
