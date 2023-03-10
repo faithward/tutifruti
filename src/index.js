@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//here we render the app in the HTML section with ID root via the App component which contains the other components
 ReactDOM.render(
   <React.StrictMode>
     <App />
