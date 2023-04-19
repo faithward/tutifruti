@@ -664,3 +664,7 @@ code {
   --tw-text-opacity: 1;
   color: rgb(108 152 154 / var(--tw-text-opacity));
 }
+
+* {
+    border: red dashed 1px;
+  }
