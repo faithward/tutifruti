@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div class="shadow bg-white">
       <div class="h-16 mx-auto px-5 flex items-center justify-between">
-        <a class="text-2xl hover:text-darkblue transition-colors cursor-pointer" href="/home">Tuti Fruti</a>
+        <a class="text-2xl hover:text-darkblue transition-colors cursor-pointer" href="/">Tuti Fruti</a>
 
         <ul class="flex items-center gap-5">
           <li><a class="hover:text-darkblue transition-colors" href="/about">About Us</a></li>

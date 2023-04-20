@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/media" element={<Media />} />
           <Route exact path="/donate" element={<Donate />} />
@@ -28,3 +28,4 @@ function App() {
 }
 
 export default App;
+
