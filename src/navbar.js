@@ -12,7 +12,7 @@ export const Navbar = () => {
         <ul class="flex items-center gap-5">
           <li><a class="hover:text-darkblue transition-colors" href="/about">About Us</a></li>
           <li><a class="hover:text-darkblue transition-colors" href="/media">Media</a></li>
-          <li><a class="hover:text-darkblue transition-colors" href="/donate">Donate</a></li>
+          <li><a class="hover:text-darkblue transition-colors" href="/contact">Contact</a></li>
           <li><a class="hover:text-darkblue transition-colors" href="/shop">Shop</a></li>
           <li><a class="hover:text-darkblue transition-colors" target="blank" href="https://www.instagram.com/tutifruti.sk8/">Instagram</a></li>
         </ul>
